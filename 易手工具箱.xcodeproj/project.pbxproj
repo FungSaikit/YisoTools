@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A4D181E645A2300572A3D /* callTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A4D171E645A2300572A3D /* callTest.m */; };
+		040C6E0F1E8A5B5B005F18EA /* recorderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C6E0E1E8A5B5B005F18EA /* recorderVC.m */; };
+		041FABF71E631FFA007D4A8C /* getInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FABF61E631FFA007D4A8C /* getInformation.m */; };
+		041FABFA1E632DBD007D4A8C /* searchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FABF91E632DBD007D4A8C /* searchVC.m */; };
+		043DEC141E7A503700B65FBE /* colorTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DEC131E7A503700B65FBE /* colorTestVC.m */; };
 		047285F91E4B4C7500E177D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047285F81E4B4C7500E177D7 /* main.m */; };
 		047285FC1E4B4C7500E177D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047285FB1E4B4C7500E177D7 /* AppDelegate.m */; };
 		047285FF1E4B4C7500E177D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047285FE1E4B4C7500E177D7 /* ViewController.m */; };
@@ -15,6 +20,9 @@
 		047286071E4B4C7500E177D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047286051E4B4C7500E177D7 /* LaunchScreen.storyboard */; };
 		047286121E4B4C7500E177D7 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047286111E4B4C7500E177D7 /* _____Tests.m */; };
 		0472861D1E4B4C7500E177D7 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472861C1E4B4C7500E177D7 /* _____UITests.m */; };
+		048618961E77F197008FA00A /* monitorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 048618951E77F197008FA00A /* monitorTest.m */; };
+		048618991E7804E5008FA00A /* softwareDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 048618981E7804E5008FA00A /* softwareDetail.m */; };
+		04F8B9B21E614CDC006F337D /* basicInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8B9B11E614CDC006F337D /* basicInformation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040A4D161E645A2300572A3D /* callTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callTest.h; sourceTree = "<group>"; };
+		040A4D171E645A2300572A3D /* callTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = callTest.m; sourceTree = "<group>"; };
+		040C6E0D1E8A5B5B005F18EA /* recorderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recorderVC.h; sourceTree = "<group>"; };
+		040C6E0E1E8A5B5B005F18EA /* recorderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recorderVC.m; sourceTree = "<group>"; };
+		041FABF51E631FFA007D4A8C /* getInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getInformation.h; sourceTree = "<group>"; };
+		041FABF61E631FFA007D4A8C /* getInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getInformation.m; sourceTree = "<group>"; };
+		041FABF81E632DBD007D4A8C /* searchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchVC.h; sourceTree = "<group>"; };
+		041FABF91E632DBD007D4A8C /* searchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchVC.m; sourceTree = "<group>"; };
+		043DEC121E7A503700B65FBE /* colorTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorTestVC.h; sourceTree = "<group>"; };
+		043DEC131E7A503700B65FBE /* colorTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorTestVC.m; sourceTree = "<group>"; };
 		047285F41E4B4C7500E177D7 /* 易手工具箱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "易手工具箱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047285F81E4B4C7500E177D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047285FA1E4B4C7500E177D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,12 @@
 		047286181E4B4C7500E177D7 /* 易手工具箱UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "易手工具箱UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0472861C1E4B4C7500E177D7 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		0472861E1E4B4C7500E177D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048618941E77F197008FA00A /* monitorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = monitorTest.h; sourceTree = "<group>"; };
+		048618951E77F197008FA00A /* monitorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = monitorTest.m; sourceTree = "<group>"; };
+		048618971E7804E5008FA00A /* softwareDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = softwareDetail.h; sourceTree = "<group>"; };
+		048618981E7804E5008FA00A /* softwareDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = softwareDetail.m; sourceTree = "<group>"; };
+		04F8B9B01E614CDC006F337D /* basicInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicInformation.h; sourceTree = "<group>"; };
+		04F8B9B11E614CDC006F337D /* basicInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basicInformation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +142,22 @@
 			isa = PBXGroup;
 			children = (
 				047285F81E4B4C7500E177D7 /* main.m */,
+				04F8B9B01E614CDC006F337D /* basicInformation.h */,
+				04F8B9B11E614CDC006F337D /* basicInformation.m */,
+				041FABF51E631FFA007D4A8C /* getInformation.h */,
+				041FABF61E631FFA007D4A8C /* getInformation.m */,
+				041FABF81E632DBD007D4A8C /* searchVC.h */,
+				041FABF91E632DBD007D4A8C /* searchVC.m */,
+				040A4D161E645A2300572A3D /* callTest.h */,
+				040A4D171E645A2300572A3D /* callTest.m */,
+				048618941E77F197008FA00A /* monitorTest.h */,
+				048618951E77F197008FA00A /* monitorTest.m */,
+				048618971E7804E5008FA00A /* softwareDetail.h */,
+				048618981E7804E5008FA00A /* softwareDetail.m */,
+				043DEC121E7A503700B65FBE /* colorTestVC.h */,
+				043DEC131E7A503700B65FBE /* colorTestVC.m */,
+				040C6E0D1E8A5B5B005F18EA /* recorderVC.h */,
+				040C6E0E1E8A5B5B005F18EA /* recorderVC.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,7 +247,7 @@
 				TargetAttributes = {
 					047285F31E4B4C7500E177D7 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = BYJH7H8925;
+						DevelopmentTeam = W94F883894;
 						ProvisioningStyle = Automatic;
 					};
 					0472860C1E4B4C7500E177D7 = {
@@ -276,9 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048618961E77F197008FA00A /* monitorTest.m in Sources */,
 				047285FF1E4B4C7500E177D7 /* ViewController.m in Sources */,
+				048618991E7804E5008FA00A /* softwareDetail.m in Sources */,
+				04F8B9B21E614CDC006F337D /* basicInformation.m in Sources */,
 				047285FC1E4B4C7500E177D7 /* AppDelegate.m in Sources */,
 				047285F91E4B4C7500E177D7 /* main.m in Sources */,
+				040C6E0F1E8A5B5B005F18EA /* recorderVC.m in Sources */,
+				041FABFA1E632DBD007D4A8C /* searchVC.m in Sources */,
+				041FABF71E631FFA007D4A8C /* getInformation.m in Sources */,
+				043DEC141E7A503700B65FBE /* colorTestVC.m in Sources */,
+				040A4D181E645A2300572A3D /* callTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,11 +475,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BYJH7H8925;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W94F883894;
 				INFOPLIST_FILE = "易手工具箱/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jackfung.com.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = jackfung.com.yisotools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,11 +490,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BYJH7H8925;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W94F883894;
 				INFOPLIST_FILE = "易手工具箱/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jackfung.com.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = jackfung.com.yisotools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -516,6 +570,7 @@
 				047286231E4B4C7500E177D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047286241E4B4C7500E177D7 /* Build configuration list for PBXNativeTarget "易手工具箱Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +579,7 @@
 				047286261E4B4C7500E177D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047286271E4B4C7500E177D7 /* Build configuration list for PBXNativeTarget "易手工具箱UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +588,7 @@
 				047286291E4B4C7500E177D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
