@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import <Foundation/NSData.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface recorderVC : UIViewController<AVAudioRecorderDelegate>
 @property (strong, nonatomic) IBOutlet UIProgressView *volume;

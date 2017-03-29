@@ -21,6 +21,10 @@
 #pragma mark - Function
 
 - (void)setAudioSession{
+    UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+    AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);
+    UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
+    AudioSessionSetProperty (kAudioSessionProperty_OverrideAudioRoute,sizeof (audioRouteOverride),&audioRouteOverride);
     AVAudioSession *audioSession = [AVAudioSession sharedInstance];
     [audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
     [audioSession setActive:YES error:nil];
@@ -70,6 +74,8 @@
 }
 
 -(AVAudioPlayer *)audioPlayer{//获取播放器对象
+    
+    
     if (!_audioPlayer) {
         NSURL *url=[self getSavePath];
         NSError *error=nil;

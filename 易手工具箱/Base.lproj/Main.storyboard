@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E163f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wbE-Xl-6xH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wbE-Xl-6xH">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -236,7 +236,7 @@
             </objects>
             <point key="canvasLocation" x="849" y="65"/>
         </scene>
-        <!--屏幕测试-->
+        <!--其他硬件测试-->
         <scene sceneID="DXB-z6-f0x">
             <objects>
                 <viewController id="gzC-uL-Fjj" customClass="monitorTest" sceneMemberID="viewController">
@@ -265,16 +265,16 @@
                             <constraint firstItem="VQ6-B0-0Gk" firstAttribute="top" secondItem="R1Y-wn-chS" secondAttribute="top" id="uhi-WF-yl3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="屏幕测试" id="l3i-9x-PwP"/>
+                    <navigationItem key="navigationItem" title="其他硬件测试" id="l3i-9x-PwP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mrj-Gv-zYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1893.5999999999999" y="886.50674662668678"/>
         </scene>
-        <!--Color TestVC-->
+        <!--纯色检查-->
         <scene sceneID="V3m-SR-Kiy">
             <objects>
-                <viewController storyboardIdentifier="ColorTestVC" autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Srp-id-0Ar" customClass="colorTestVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ColorTestVC" autoresizesArchivedViewToFullSize="NO" title="纯色检查" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Srp-id-0Ar" customClass="colorTestVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kIQ-qH-0Ca"/>
                         <viewControllerLayoutGuide type="bottom" id="lBz-i6-wTc"/>
@@ -320,11 +320,11 @@
             </objects>
             <point key="canvasLocation" x="2749.5999999999999" y="886.50674662668678"/>
         </scene>
-        <!--屏幕测试-->
+        <!--其他硬件-->
         <scene sceneID="zMT-TO-5KB">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sl7-hD-nAM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="屏幕测试" image="MonitorTestIcon" id="c6P-93-wJD"/>
+                    <tabBarItem key="tabBarItem" title="其他硬件" image="MonitorTestIcon" id="c6P-93-wJD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="9jJ-wO-JIf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

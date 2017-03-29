@@ -14,7 +14,7 @@
 //    sectionArray = @[@"纯色检查", @"触摸测试"];
 //    detailArray = @[@"检查坏点、阴阳屏等问题(建议关闭Night Shift)", @"测试触摸屏是否正常运行"];
     sectionArray = @[@"纯色检查(建议关闭Night Shift)"];
-    detailArray = @[@"请您仔细观察屏幕是否出现坏点、阴阳屏等情况"];
+    detailArray = @[@"请您观察屏幕在纯色下是否令您满意"];
     [super viewDidLoad];
 }
 
