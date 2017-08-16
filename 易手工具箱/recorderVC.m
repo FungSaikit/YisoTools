@@ -21,12 +21,9 @@
 #pragma mark - Function
 
 - (void)setAudioSession{
-    UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
-    AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);
-    UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
-    AudioSessionSetProperty (kAudioSessionProperty_OverrideAudioRoute,sizeof (audioRouteOverride),&audioRouteOverride);
     AVAudioSession *audioSession = [AVAudioSession sharedInstance];
-    [audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+    [audioSession overrideOutputAudioPort:AVAudioSessionPortOverrideSpeaker error:nil];
+    //[audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
     [audioSession setActive:YES error:nil];
 }
 
@@ -70,12 +67,11 @@
             return nil;
         }
     }
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];//录音
     return _audioRecorder;
 }
 
 -(AVAudioPlayer *)audioPlayer{//获取播放器对象
-    
-    
     if (!_audioPlayer) {
         NSURL *url=[self getSavePath];
         NSError *error=nil;
@@ -87,6 +83,8 @@
             return nil;
         }
     }
+    
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];//获取播放器时，用扬声器播放
     return _audioPlayer;
 }
 
@@ -100,7 +98,7 @@
 - (void)audioPowerChange{
     [self.audioRecorder updateMeters];//更新测量值
     float power= [self.audioRecorder averagePowerForChannel:0];//取得第一个通道的音频，注意音频强度范围时-160到0
-    CGFloat progress = (power+160.0)/160;
+    CGFloat progress = (power+160.0 - 50)/160;
     [self.volume setProgress:progress];
 }
 

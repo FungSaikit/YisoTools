@@ -11,8 +11,14 @@
 #import "getInformation.h"
 
 
-@interface searchVC : UIViewController <UIWebViewDelegate>
+@interface searchVC : UIViewController <UIWebViewDelegate, UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (strong, nonatomic) IBOutlet UIToolbar *toolBar;
+@property int dragOffSet;
+@property (strong, nonatomic) IBOutlet UILabel *webNameLabel;
+- (IBAction)clickToBack:(id)sender;
 
 @end
+

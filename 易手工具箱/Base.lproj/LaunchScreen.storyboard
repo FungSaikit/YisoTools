@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E163f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,11 +27,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenPicture" translatesAutoresizingMaskIntoConstraints="NO" id="avf-fI-YG0">
+                                <rect key="frame" x="0.0" y="292" width="375" height="375"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="r7q-Hq-cSv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="TUS-kl-7mR"/>
-                            <constraint firstItem="r7q-Hq-cSv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dgx-Oe-Txr"/>
+                            <constraint firstItem="avf-fI-YG0" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="272" id="1Ta-OY-lbF"/>
+                            <constraint firstItem="avf-fI-YG0" firstAttribute="centerX" secondItem="r7q-Hq-cSv" secondAttribute="centerX" id="6ma-Ux-0d0"/>
+                            <constraint firstItem="r7q-Hq-cSv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bbj-gu-Ajy"/>
+                            <constraint firstItem="avf-fI-YG0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="k0J-Yq-e72"/>
+                            <constraint firstAttribute="trailing" secondItem="avf-fI-YG0" secondAttribute="trailing" id="k7S-WA-QKX"/>
+                            <constraint firstItem="avf-fI-YG0" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="pJa-RL-Rid"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,4 +47,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchScreenPicture" width="1080" height="1080"/>
+    </resources>
 </document>

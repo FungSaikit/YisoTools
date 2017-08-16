@@ -14,16 +14,25 @@
     _pageIndex = 0;//执行此view时给pageIndex赋初值
     [super viewDidLoad];
     _backgroundView.backgroundColor = [UIColor redColor];
+    
+    //隐藏所有栏
+    [self.tabBarController.tabBar setHidden:YES];
     [[UIApplication sharedApplication] setStatusBarHidden:YES];//隐藏状态栏
     [self.navigationController setNavigationBarHidden:YES];//隐藏导航栏
     
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    //恢复显示所有栏
+    [self.tabBarController.tabBar setHidden:NO];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+    [self.navigationController setNavigationBarHidden:NO];
 }
 
 - (IBAction)tapToChange:(id)sender {
     _pageIndex++;
     if (_pageIndex == 1) {
         _backgroundView.backgroundColor = [UIColor greenColor];
-        
     }
     else if (_pageIndex == 2){
         _backgroundView.backgroundColor = [UIColor blueColor];

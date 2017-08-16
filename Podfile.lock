@@ -1,0 +1,18 @@
+PODS:
+  - BmobSDK (2.1.7)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - BmobSDK
+  - PNChart
+
+SPEC CHECKSUMS:
+  BmobSDK: 23cbfbde2a7cfaeb0c8a946953a266fe5211e7f6
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+PODFILE CHECKSUM: 708dca3ec4e3b13632a7bd2c4fba94df3360edad
+
+COCOAPODS: 1.2.0

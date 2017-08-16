@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    [NSThread sleepForTimeInterval:2];//启动页停留3秒时间
+    [NSThread sleepForTimeInterval:1];//启动页停留3秒时间
     return YES;
 }
 

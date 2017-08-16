@@ -11,7 +11,10 @@
 @interface basicInformation : UIViewController <UITableViewDataSource,UITableViewDelegate>
 {
     NSArray *informationArray;
+    NSArray *titleArray;
     NSString *modelInfo;
+    NSString *timeToMarket;
+    NSString *phoneName;
     NSString *systemVersion;
     NSString *cpuInfo;
     NSString *memoryInfo;
@@ -19,6 +22,7 @@
     NSString *displayInfo;
     NSString *displayPPI;
 }
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView;
 

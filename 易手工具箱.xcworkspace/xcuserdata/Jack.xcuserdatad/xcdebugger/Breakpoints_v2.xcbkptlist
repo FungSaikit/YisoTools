@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6613;&#x624b;&#x5de5;&#x5177;&#x7bb1;/rankVC.m"
+            timestampString = "514090164.788133"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6613;&#x624b;&#x5de5;&#x5177;&#x7bb1;/searchVC.h"
+            timestampString = "514291038.913187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "@interface searchVC"
+            landmarkType = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[searchVC webView]"
+                  moduleName = "&#x6613;&#x624b;&#x5de5;&#x5177;&#x7bb1;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jack/Desktop/iOSProject/%E6%98%93%E6%89%8B%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%98%93%E6%89%8B%E5%B7%A5%E5%85%B7%E7%AE%B1/searchVC.h"
+                  timestampString = "514291039.125789"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[searchVC setWebView:]"
+                  moduleName = "&#x6613;&#x624b;&#x5de5;&#x5177;&#x7bb1;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jack/Desktop/iOSProject/%E6%98%93%E6%89%8B%E5%B7%A5%E5%85%B7%E7%AE%B1/%E6%98%93%E6%89%8B%E5%B7%A5%E5%85%B7%E7%AE%B1/searchVC.h"
+                  timestampString = "514291039.134018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

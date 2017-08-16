@@ -11,10 +11,8 @@
 @implementation monitorTest
 
 - (void)viewDidLoad{
-//    sectionArray = @[@"纯色检查", @"触摸测试"];
-//    detailArray = @[@"检查坏点、阴阳屏等问题(建议关闭Night Shift)", @"测试触摸屏是否正常运行"];
-    sectionArray = @[@"纯色检查(建议关闭Night Shift)"];
-    detailArray = @[@"请您观察屏幕在纯色下是否令您满意"];
+    sectionArray = @[@"纯色检查(建议关闭Night Shift)", @"触摸测试(从左侧边界右滑返回)", @"多点触摸测试"];
+    detailArray = @[@"请您观察屏幕在纯色下是否令您满意", @"程序每0.1秒将你触摸过的点变为黑色小块", @"获取屏幕所支持的最大触摸点数"];
     [super viewDidLoad];
 }
 
@@ -44,6 +42,14 @@
     [tableView deselectRowAtIndexPath:indexPath animated:NO];//选择row时不显示点击的选项
     if(indexPath.row == 0){
         UIViewController *coderDetail = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ColorTestVC"];
+        [self.navigationController pushViewController:coderDetail animated:YES];
+    }
+    else if (indexPath.row == 1){
+        UIViewController *coderDetail = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"TouchTestVC"];
+        [self.navigationController pushViewController:coderDetail animated:YES];
+    }
+    else if (indexPath.row == 2){
+        UIViewController *coderDetail = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"MultiTouchTestVC"];
         [self.navigationController pushViewController:coderDetail animated:YES];
     }
     

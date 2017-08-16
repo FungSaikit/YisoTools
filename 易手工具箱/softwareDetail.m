@@ -42,7 +42,8 @@
         [self.navigationController pushViewController:pushPage animated:YES];
     }
     else if (indexPath.row == 1){
-        
+        NSURL *Address = [NSURL URLWithString:[NSString stringWithFormat:@"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%@&pageNumber=0&sortOrdering=2&mt=8", @"1216660644"]];
+        [[UIApplication sharedApplication] openURL:Address];
     }
     else if (indexPath.row == 2){
         NSURL *Address = [NSURL URLWithString:@"sms:jackfung1996@icloud.com"];

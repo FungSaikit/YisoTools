@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		040A4D181E645A2300572A3D /* callTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A4D171E645A2300572A3D /* callTest.m */; };
 		040C6E0F1E8A5B5B005F18EA /* recorderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C6E0E1E8A5B5B005F18EA /* recorderVC.m */; };
+		040CBCC41E9A72E500EEB3D9 /* distanceSensorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CBCC31E9A72E500EEB3D9 /* distanceSensorTest.m */; };
+		040CBCC71E9B49FF00EEB3D9 /* rankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CBCC61E9B49FF00EEB3D9 /* rankVC.m */; };
 		041FABF71E631FFA007D4A8C /* getInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FABF61E631FFA007D4A8C /* getInformation.m */; };
 		041FABFA1E632DBD007D4A8C /* searchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FABF91E632DBD007D4A8C /* searchVC.m */; };
+		042496E51E8BE8C30032525E /* touchTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042496E41E8BE8C30032525E /* touchTestVC.m */; };
+		042496E81E8CB9B70032525E /* multiTouchTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042496E71E8CB9B70032525E /* multiTouchTestVC.m */; };
+		0424B14C1EAF06F000173EB7 /* cameraTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424B14B1EAF06F000173EB7 /* cameraTest.m */; };
 		043DEC141E7A503700B65FBE /* colorTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DEC131E7A503700B65FBE /* colorTestVC.m */; };
 		047285F91E4B4C7500E177D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047285F81E4B4C7500E177D7 /* main.m */; };
 		047285FC1E4B4C7500E177D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047285FB1E4B4C7500E177D7 /* AppDelegate.m */; };
@@ -22,7 +27,13 @@
 		0472861D1E4B4C7500E177D7 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472861C1E4B4C7500E177D7 /* _____UITests.m */; };
 		048618961E77F197008FA00A /* monitorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 048618951E77F197008FA00A /* monitorTest.m */; };
 		048618991E7804E5008FA00A /* softwareDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 048618981E7804E5008FA00A /* softwareDetail.m */; };
+		04C1CA6B1E9C9AFE00BB6CEE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 04C1CA6A1E9C9AFE00BB6CEE /* Podfile */; };
+		04C883AD1ED31720009EB862 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C883AC1ED31720009EB862 /* AVFoundation.framework */; };
+		04C883B51ED31AAC009EB862 /* CustomizableCamera in Resources */ = {isa = PBXBuildFile; fileRef = 04C883B41ED31AAC009EB862 /* CustomizableCamera */; };
 		04F8B9B21E614CDC006F337D /* basicInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8B9B11E614CDC006F337D /* basicInformation.m */; };
+		04FC20371EBDF0A60016767D /* JXBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC20361EBDF0A60016767D /* JXBarChartView.m */; };
+		04FC203A1EBDF0FB0016767D /* topRank.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC20391EBDF0FB0016767D /* topRank.m */; };
+		C94321E739E1EA740CE7DD2C /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6308CB032FEFB02663DB16 /* Pods______.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +58,20 @@
 		040A4D171E645A2300572A3D /* callTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = callTest.m; sourceTree = "<group>"; };
 		040C6E0D1E8A5B5B005F18EA /* recorderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recorderVC.h; sourceTree = "<group>"; };
 		040C6E0E1E8A5B5B005F18EA /* recorderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recorderVC.m; sourceTree = "<group>"; };
+		040CBCC21E9A72E500EEB3D9 /* distanceSensorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = distanceSensorTest.h; sourceTree = "<group>"; };
+		040CBCC31E9A72E500EEB3D9 /* distanceSensorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = distanceSensorTest.m; sourceTree = "<group>"; };
+		040CBCC51E9B49FF00EEB3D9 /* rankVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rankVC.h; sourceTree = "<group>"; };
+		040CBCC61E9B49FF00EEB3D9 /* rankVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rankVC.m; sourceTree = "<group>"; };
 		041FABF51E631FFA007D4A8C /* getInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getInformation.h; sourceTree = "<group>"; };
 		041FABF61E631FFA007D4A8C /* getInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getInformation.m; sourceTree = "<group>"; };
 		041FABF81E632DBD007D4A8C /* searchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchVC.h; sourceTree = "<group>"; };
 		041FABF91E632DBD007D4A8C /* searchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchVC.m; sourceTree = "<group>"; };
+		042496E31E8BE8C30032525E /* touchTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touchTestVC.h; sourceTree = "<group>"; };
+		042496E41E8BE8C30032525E /* touchTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = touchTestVC.m; sourceTree = "<group>"; };
+		042496E61E8CB9B70032525E /* multiTouchTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiTouchTestVC.h; sourceTree = "<group>"; };
+		042496E71E8CB9B70032525E /* multiTouchTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = multiTouchTestVC.m; sourceTree = "<group>"; };
+		0424B14A1EAF06F000173EB7 /* cameraTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraTest.h; sourceTree = "<group>"; };
+		0424B14B1EAF06F000173EB7 /* cameraTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraTest.m; sourceTree = "<group>"; };
 		043DEC121E7A503700B65FBE /* colorTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorTestVC.h; sourceTree = "<group>"; };
 		043DEC131E7A503700B65FBE /* colorTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorTestVC.m; sourceTree = "<group>"; };
 		047285F41E4B4C7500E177D7 /* 易手工具箱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "易手工具箱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,8 +94,30 @@
 		048618951E77F197008FA00A /* monitorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = monitorTest.m; sourceTree = "<group>"; };
 		048618971E7804E5008FA00A /* softwareDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = softwareDetail.h; sourceTree = "<group>"; };
 		048618981E7804E5008FA00A /* softwareDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = softwareDetail.m; sourceTree = "<group>"; };
+		04B017A91EB8B28700CC8CDB /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BmobSDK.framework; path = ../../../Downloads/Bmob_iOS_SDK_v2.1.8/BmobSDK.framework; sourceTree = "<group>"; };
+		04B017AB1EB8B2F300CC8CDB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04B017AD1EB8B2FF00CC8CDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04B017AF1EB8B31200CC8CDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04B017B11EB8B31F00CC8CDB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04B017B31EB8B32D00CC8CDB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04B017B51EB8B34200CC8CDB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04B017B71EB8B35900CC8CDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04B017B91EB8B36700CC8CDB /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		04B017BB1EB8B37700CC8CDB /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		04B017BD1EB8B38800CC8CDB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04B017BF1EB8B39800CC8CDB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		04C1CA6A1E9C9AFE00BB6CEE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		04C883AC1ED31720009EB862 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04C883B41ED31AAC009EB862 /* CustomizableCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomizableCamera; sourceTree = "<group>"; };
 		04F8B9B01E614CDC006F337D /* basicInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicInformation.h; sourceTree = "<group>"; };
 		04F8B9B11E614CDC006F337D /* basicInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basicInformation.m; sourceTree = "<group>"; };
+		04FC20351EBDF0A60016767D /* JXBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXBarChartView.h; path = "../../../../Downloads/ios-cabin-master/JXBarChartView/JXBarChartView.h"; sourceTree = "<group>"; };
+		04FC20361EBDF0A60016767D /* JXBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXBarChartView.m; path = "../../../../Downloads/ios-cabin-master/JXBarChartView/JXBarChartView.m"; sourceTree = "<group>"; };
+		04FC20381EBDF0FB0016767D /* topRank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topRank.h; sourceTree = "<group>"; };
+		04FC20391EBDF0FB0016767D /* topRank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topRank.m; sourceTree = "<group>"; };
+		40D9D9E73F57A17920679378 /* Pods-易手工具箱.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-易手工具箱.release.xcconfig"; path = "Pods/Target Support Files/Pods-易手工具箱/Pods-易手工具箱.release.xcconfig"; sourceTree = "<group>"; };
+		B1CB475B0F2EC9D5B3455FC3 /* Pods-易手工具箱.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-易手工具箱.debug.xcconfig"; path = "Pods/Target Support Files/Pods-易手工具箱/Pods-易手工具箱.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6308CB032FEFB02663DB16 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C883AD1ED31720009EB862 /* AVFoundation.framework in Frameworks */,
+				C94321E739E1EA740CE7DD2C /* Pods______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,10 +150,13 @@
 		047285EB1E4B4C7500E177D7 = {
 			isa = PBXGroup;
 			children = (
+				04C1CA6A1E9C9AFE00BB6CEE /* Podfile */,
 				047285F61E4B4C7500E177D7 /* 易手工具箱 */,
 				047286101E4B4C7500E177D7 /* 易手工具箱Tests */,
 				0472861B1E4B4C7500E177D7 /* 易手工具箱UITests */,
 				047285F51E4B4C7500E177D7 /* Products */,
+				ED79B39E3B864C18E6CE5D23 /* Pods */,
+				ED89392AF39C5BA52390E189 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +181,7 @@
 				047286031E4B4C7500E177D7 /* Assets.xcassets */,
 				047286051E4B4C7500E177D7 /* LaunchScreen.storyboard */,
 				047286081E4B4C7500E177D7 /* Info.plist */,
+				04C883B41ED31AAC009EB862 /* CustomizableCamera */,
 				047285F71E4B4C7500E177D7 /* Supporting Files */,
 			);
 			path = "易手工具箱";
@@ -141,6 +190,8 @@
 		047285F71E4B4C7500E177D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04FC20351EBDF0A60016767D /* JXBarChartView.h */,
+				04FC20361EBDF0A60016767D /* JXBarChartView.m */,
 				047285F81E4B4C7500E177D7 /* main.m */,
 				04F8B9B01E614CDC006F337D /* basicInformation.h */,
 				04F8B9B11E614CDC006F337D /* basicInformation.m */,
@@ -158,6 +209,18 @@
 				043DEC131E7A503700B65FBE /* colorTestVC.m */,
 				040C6E0D1E8A5B5B005F18EA /* recorderVC.h */,
 				040C6E0E1E8A5B5B005F18EA /* recorderVC.m */,
+				042496E31E8BE8C30032525E /* touchTestVC.h */,
+				042496E41E8BE8C30032525E /* touchTestVC.m */,
+				042496E61E8CB9B70032525E /* multiTouchTestVC.h */,
+				042496E71E8CB9B70032525E /* multiTouchTestVC.m */,
+				040CBCC21E9A72E500EEB3D9 /* distanceSensorTest.h */,
+				040CBCC31E9A72E500EEB3D9 /* distanceSensorTest.m */,
+				040CBCC51E9B49FF00EEB3D9 /* rankVC.h */,
+				040CBCC61E9B49FF00EEB3D9 /* rankVC.m */,
+				0424B14A1EAF06F000173EB7 /* cameraTest.h */,
+				0424B14B1EAF06F000173EB7 /* cameraTest.m */,
+				04FC20381EBDF0FB0016767D /* topRank.h */,
+				04FC20391EBDF0FB0016767D /* topRank.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,6 +243,36 @@
 			path = "易手工具箱UITests";
 			sourceTree = "<group>";
 		};
+		ED79B39E3B864C18E6CE5D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1CB475B0F2EC9D5B3455FC3 /* Pods-易手工具箱.debug.xcconfig */,
+				40D9D9E73F57A17920679378 /* Pods-易手工具箱.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED89392AF39C5BA52390E189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C883AC1ED31720009EB862 /* AVFoundation.framework */,
+				04B017BF1EB8B39800CC8CDB /* libc++.tbd */,
+				04B017BD1EB8B38800CC8CDB /* libsqlite3.tbd */,
+				04B017BB1EB8B37700CC8CDB /* libicucore.tbd */,
+				04B017B91EB8B36700CC8CDB /* libz.1.2.5.tbd */,
+				04B017B71EB8B35900CC8CDB /* SystemConfiguration.framework */,
+				04B017B51EB8B34200CC8CDB /* CoreTelephony.framework */,
+				04B017B31EB8B32D00CC8CDB /* CFNetwork.framework */,
+				04B017B11EB8B31F00CC8CDB /* MobileCoreServices.framework */,
+				04B017AF1EB8B31200CC8CDB /* CoreGraphics.framework */,
+				04B017AD1EB8B2FF00CC8CDB /* Security.framework */,
+				04B017AB1EB8B2F300CC8CDB /* CoreLocation.framework */,
+				04B017A91EB8B28700CC8CDB /* BmobSDK.framework */,
+				FF6308CB032FEFB02663DB16 /* Pods______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047286211E4B4C7500E177D7 /* Build configuration list for PBXNativeTarget "易手工具箱" */;
 			buildPhases = (
+				76CA22D31976CB5A830A9B54 /* [CP] Check Pods Manifest.lock */,
 				047285F01E4B4C7500E177D7 /* Sources */,
 				047285F11E4B4C7500E177D7 /* Frameworks */,
 				047285F21E4B4C7500E177D7 /* Resources */,
+				741F28676AC633B304DF26AD /* [CP] Embed Pods Frameworks */,
+				C14A3AEB1EB8FD950C6821FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,7 +387,9 @@
 			files = (
 				047286071E4B4C7500E177D7 /* LaunchScreen.storyboard in Resources */,
 				047286041E4B4C7500E177D7 /* Assets.xcassets in Resources */,
+				04C1CA6B1E9C9AFE00BB6CEE /* Podfile in Resources */,
 				047286021E4B4C7500E177D7 /* Main.storyboard in Resources */,
+				04C883B51ED31AAC009EB862 /* CustomizableCamera in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,22 +409,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		741F28676AC633B304DF26AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-易手工具箱/Pods-易手工具箱-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CA22D31976CB5A830A9B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C14A3AEB1EB8FD950C6821FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-易手工具箱/Pods-易手工具箱-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		047285F01E4B4C7500E177D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0424B14C1EAF06F000173EB7 /* cameraTest.m in Sources */,
+				04FC20371EBDF0A60016767D /* JXBarChartView.m in Sources */,
+				040CBCC41E9A72E500EEB3D9 /* distanceSensorTest.m in Sources */,
 				048618961E77F197008FA00A /* monitorTest.m in Sources */,
+				040CBCC71E9B49FF00EEB3D9 /* rankVC.m in Sources */,
 				047285FF1E4B4C7500E177D7 /* ViewController.m in Sources */,
 				048618991E7804E5008FA00A /* softwareDetail.m in Sources */,
 				04F8B9B21E614CDC006F337D /* basicInformation.m in Sources */,
+				042496E51E8BE8C30032525E /* touchTestVC.m in Sources */,
 				047285FC1E4B4C7500E177D7 /* AppDelegate.m in Sources */,
 				047285F91E4B4C7500E177D7 /* main.m in Sources */,
 				040C6E0F1E8A5B5B005F18EA /* recorderVC.m in Sources */,
 				041FABFA1E632DBD007D4A8C /* searchVC.m in Sources */,
 				041FABF71E631FFA007D4A8C /* getInformation.m in Sources */,
+				042496E81E8CB9B70032525E /* multiTouchTestVC.m in Sources */,
 				043DEC141E7A503700B65FBE /* colorTestVC.m in Sources */,
 				040A4D181E645A2300572A3D /* callTest.m in Sources */,
+				04FC203A1EBDF0FB0016767D /* topRank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +626,7 @@
 		};
 		047286221E4B4C7500E177D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CB475B0F2EC9D5B3455FC3 /* Pods-易手工具箱.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -483,11 +637,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jackfung.com.yisotools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		047286231E4B4C7500E177D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D9D9E73F57A17920679378 /* Pods-易手工具箱.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -498,6 +654,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jackfung.com.yisotools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

@@ -12,8 +12,8 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
-    phoneTestArray = [NSArray arrayWithObjects:@"测试听筒1", @"测试听筒2", @"测试听筒3", @"话筒及扬声器测试", nil];
-    detailArray = [NSArray arrayWithObjects:@"移动用户请点击此处", @"联通用户请点击此处", @"电信用户请点击此处", @"请使用录音测试话筒及扬声器是否可用", nil];
+    phoneTestArray = [NSArray arrayWithObjects:@"测试听筒", @"话筒及扬声器测试", @"距离感应器测试", @"摄像头测试", nil];
+    detailArray = [NSArray arrayWithObjects:@"将拨打电话以测试听筒是否工作", @"请使用录音测试话筒及扬声器是否可用", @"因感应器故障而导致黑屏，可按电源键恢复", @"摄像头不工作将影响视频通话和日常拍摄", nil];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -40,25 +40,33 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:NO];//点击row时不变色
     if (indexPath.row == 0) {
-        NSMutableString * str=[[NSMutableString alloc] initWithString:@"tel:10086"];
+        NSMutableString * str=[[NSMutableString alloc] initWithString:@"tel:112"];
         UIWebView * callWebview = [[UIWebView alloc] init];
         [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
         [self.view addSubview:callWebview];
     }
+//    else if(indexPath.row == 1){
+//        NSMutableString * str=[[NSMutableString alloc] initWithString:@"tel:10010"];
+//        UIWebView *callWebview = [[UIWebView alloc] init];
+//        [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
+//        [self.view addSubview:callWebview];
+//    }
+//    else if(indexPath.row == 2){
+//        NSMutableString * str=[[NSMutableString alloc] initWithString:@"tel:10000"];
+//        UIWebView *callWebview = [[UIWebView alloc] init];
+//        [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
+//        [self.view addSubview:callWebview];
+//    }
     else if(indexPath.row == 1){
-        NSMutableString * str=[[NSMutableString alloc] initWithString:@"tel:10010"];
-        UIWebView *callWebview = [[UIWebView alloc] init];
-        [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
-        [self.view addSubview:callWebview];
+        UIViewController *pushPage = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"recorderView"];
+        [self.navigationController pushViewController:pushPage animated:YES];
     }
     else if(indexPath.row == 2){
-        NSMutableString * str=[[NSMutableString alloc] initWithString:@"tel:10000"];
-        UIWebView *callWebview = [[UIWebView alloc] init];
-        [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
-        [self.view addSubview:callWebview];
+        UIViewController *pushPage = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"distanceSensorView"];
+        [self.navigationController pushViewController:pushPage animated:YES];
     }
     else if(indexPath.row == 3){
-        UIViewController *pushPage = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"recorderView"];
+        UIViewController *pushPage = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"cameraTestView"];
         [self.navigationController pushViewController:pushPage animated:YES];
     }
     
